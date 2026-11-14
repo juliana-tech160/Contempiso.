@@ -1,0 +1,14 @@
+{
+  "name": "contempiso",
+  "version": "1.0.0",
+  "description": "Sistema web de gestão de pedidos da CONTEMPISO",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "jsdom": "^26.1.0",
+    "vitest": "^3.2.4"
+  }
+}
