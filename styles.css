@@ -130,3 +130,49 @@ p { color: var(--muted); line-height: 1.55; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+/* Melhorias visuais da interface CONTEMPISO */
+
+body {
+  background: #f3f6fa;
+}
+
+.topbar {
+  background: #102b4e;
+  box-shadow: 0 3px 12px rgba(16, 43, 78, 0.12);
+}
+
+.panel,
+.card,
+.dashboard-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(16, 43, 78, 0.06);
+}
+
+button,
+.button {
+  border-radius: 10px;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover,
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(16, 43, 78, 0.15);
+}
+
+input,
+select,
+textarea {
+  border-radius: 9px;
+  border: 1px solid #d8e0ea;
+  padding: 12px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #245b9b;
+  box-shadow: 0 0 0 3px rgba(36, 91, 155, 0.12);
+}
