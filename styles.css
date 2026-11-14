@@ -134,6 +134,24 @@ p { color: var(--muted); line-height: 1.55; }
 
 body {
   background: #ffffff;
+  color: #182536;
+}
+
+.app-shell {
+  background: #ffffff;
+}
+
+main {
+  background: #ffffff;
+}
+
+.button-primary {
+  background: #245b9b;
+  color: #ffffff;
+}
+
+.button-primary:hover {
+  background: #183d68;
 }
 
 .topbar {
