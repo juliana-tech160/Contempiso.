@@ -30,3 +30,6 @@ Este é um protótipo front-end. Os pedidos ficam salvos somente no navegador e 
 1. Na tela inicial, acesse “Novo pedido”.
 2. Cadastre um pedido usando dados fictícios.
 3. Na listagem, localize o pedido e altere seu status para “Agendado”.
+## Evolução do projeto
+
+O CONTEMPISO está em desenvolvimento e busca facilitar o gerenciamento de clientes, pedidos, obras e agendamentos.
